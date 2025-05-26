@@ -92,7 +92,8 @@ if __name__ == "__main__":
 
     strip.plot()
     Code Structure:
-
+    
+#code Structure 
 The MobiusStrip class encapsulates geometry creation, surface area calculation, edge length estimation, and 3D visualization.
 
 Parametric equations are used to define (x, y, z) over a meshgrid of u and v.
@@ -101,7 +102,7 @@ Surface area uses the magnitude of the cross product of partial derivatives, int
 
 Edge length is computed numerically along both boundary edges.
 
-Surface Area Approximation:
+#Surface Area Approximation:
 
 Partial derivatives are computed with np.gradient.
 
@@ -109,7 +110,7 @@ The local area element is the norm of the cross product of these vectors.
 
 Double integration is performed using Simpson’s rule.
 
-Challenges:
+#Challenges:
 
 Handling the twist and orientation at mesh boundaries.
 
